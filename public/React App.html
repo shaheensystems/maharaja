@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)http://localhost:3000/#/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <link rel="stylesheet" href="./React App_files/font-awesome.min.css">
+
+    <!--
+      <script src="
+https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css
+" rel="stylesheet">
+<link src="./css/global.css" rel="stylesheet">
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <script defer="" src="./React App_files/bundle.js.download"></script><style>.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and(max-width: 600px){
+      .top-nav a:not(:first-child){display: none;}
+      .top.nav  a.icon{
+         float: right;
+         display: block;
+        }
+      }
+        @media screen and(max-width: 600px){
+          .top-nav.responsive {position: relative;}
+          .top.nav.top-nav.responsive.icon{
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+        }
+            .top-nav.responsive a{
+
+                float: none;
+                display: block;
+                grid-gap: 5px;}
+
+          #grid{
+              display: grid;
+              grid-template-columns: repeat(auto-fill, min-max(400px, 1fr));
+              grid-gap: 5px;
+
+          }
+
+
+
+      
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9BcHAuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsY0FBYztFQUNkLG9CQUFvQjtBQUN0Qjs7QUFFQTtFQUNFO0lBQ0UsNENBQTRDO0VBQzlDO0FBQ0Y7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsaUJBQWlCO0VBQ2pCLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsbUJBQW1CO0VBQ25CLHVCQUF1QjtFQUN2Qiw2QkFBNkI7RUFDN0IsWUFBWTtBQUNkO0FBQ0E7RUFDRSxjQUFjO0FBQ2hCOztBQUVBO0VBQ0U7SUFDRSx1QkFBdUI7RUFDekI7RUFDQTtJQUNFLHlCQUF5QjtFQUMzQjtBQUNGOztBQUVBO01BQ00sNkJBQTZCLGFBQWEsQ0FBQztNQUMzQztTQUNHLFlBQVk7U0FDWixjQUFjO1FBQ2Y7TUFDRjtRQUNFO1VBQ0UscUJBQXFCLGtCQUFrQixDQUFDO1VBQ3hDO1lBQ0Usa0JBQWtCO1lBQ2xCLFFBQVE7WUFDUixNQUFNO1VBQ1I7UUFDRjtZQUNJOztnQkFFSSxXQUFXO2dCQUNYLGNBQWM7Z0JBQ2QsYUFBYSxDQUFDOztVQUVwQjtjQUNJLGFBQWE7Y0FDYiw2REFBNkQ7Y0FDN0QsYUFBYTs7VUFFakIiLCJzb3VyY2VzQ29udGVudCI6WyIuQXBwIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uQXBwLWxvZ28ge1xuICBoZWlnaHQ6IDQwdm1pbjtcbiAgcG9pbnRlci1ldmVudHM6IG5vbmU7XG59XG5cbkBtZWRpYSAocHJlZmVycy1yZWR1Y2VkLW1vdGlvbjogbm8tcHJlZmVyZW5jZSkge1xuICAuQXBwLWxvZ28ge1xuICAgIGFuaW1hdGlvbjogQXBwLWxvZ28tc3BpbiBpbmZpbml0ZSAyMHMgbGluZWFyO1xuICB9XG59XG5cbi5BcHAtaGVhZGVyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzI4MmMzNDtcbiAgbWluLWhlaWdodDogMTAwdmg7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBmb250LXNpemU6IGNhbGMoMTBweCArIDJ2bWluKTtcbiAgY29sb3I6IHdoaXRlO1xufVxuLkFwcC1saW5rIHtcbiAgY29sb3I6ICM2MWRhZmI7XG59XG5cbkBrZXlmcmFtZXMgQXBwLWxvZ28tc3BpbiB7XG4gIGZyb20ge1xuICAgIHRyYW5zZm9ybTogcm90YXRlKDBkZWcpO1xuICB9XG4gIHRvIHtcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpO1xuICB9XG59XG5cbkBtZWRpYSBzY3JlZW4gYW5kKG1heC13aWR0aDogNjAwcHgpe1xuICAgICAgLnRvcC1uYXYgYTpub3QoOmZpcnN0LWNoaWxkKXtkaXNwbGF5OiBub25lO31cbiAgICAgIC50b3AubmF2ICBhLmljb257XG4gICAgICAgICBmbG9hdDogcmlnaHQ7XG4gICAgICAgICBkaXNwbGF5OiBibG9jaztcbiAgICAgICAgfVxuICAgICAgfVxuICAgICAgICBAbWVkaWEgc2NyZWVuIGFuZChtYXgtd2lkdGg6IDYwMHB4KXtcbiAgICAgICAgICAudG9wLW5hdi5yZXNwb25zaXZlIHtwb3NpdGlvbjogcmVsYXRpdmU7fVxuICAgICAgICAgIC50b3AubmF2LnRvcC1uYXYucmVzcG9uc2l2ZS5pY29ue1xuICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgICAgcmlnaHQ6IDA7XG4gICAgICAgICAgICB0b3A6IDA7XG4gICAgICAgICAgfVxuICAgICAgICB9XG4gICAgICAgICAgICAudG9wLW5hdi5yZXNwb25zaXZlIGF7XG5cbiAgICAgICAgICAgICAgICBmbG9hdDogbm9uZTtcbiAgICAgICAgICAgICAgICBkaXNwbGF5OiBibG9jaztcbiAgICAgICAgICAgICAgICBncmlkLWdhcDogNXB4O31cblxuICAgICAgICAgICNncmlke1xuICAgICAgICAgICAgICBkaXNwbGF5OiBncmlkO1xuICAgICAgICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdChhdXRvLWZpbGwsIG1pbi1tYXgoNDAwcHgsIDFmcikpO1xuICAgICAgICAgICAgICBncmlkLWdhcDogNXB4O1xuXG4gICAgICAgICAgfVxuXG5cblxuICAgICAgXG4iXSwic291cmNlUm9vdCI6IiJ9 */</style><style>
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ== */</style><style>.main_div{
+   width: 10%;
+   height: 30vh;
+   background: #110101;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  }
+  .center_div{
+     width: 10%;
+     height: 90vh;
+     background-color: rgb(0, 166, 255);
+     border-radius: 15px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+ h1{
+
+   color: #170101;
+   background: transparent;
+   font-size: 3rem;
+   background-color: #c8ceeb;
+   padding: 6px 0 2px 0;
+   width: 45%;
+ }
+ input{
+   text-align: center;
+   height: 30px;
+   top: 10px;
+   border: none;
+   background: transparent;
+   font-size: 2.5rem;
+   font-weight: 500;
+   width: 100%;
+   border-bottom: 2px solid #da0e0e;
+   outline: none;
+
+  } 
+   button{
+    min-height: 40px;
+    border-radius: 5%;
+    border-color: transparent;
+    background-color: #edeaf5;
+    color: #000;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    margin-top: 10px;
+    
+    font-size: 20px;
+    width: 40%;
+    
+   }
+
+.btn_div{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+body {
+  
+  font-family: -
+    sans-serif;
+  
+
+
+}
+code {
+  font-family: 
+    monospace;
+}
+#grid{
+    display: grid;
+    grid-template-columns: repeat(autofill, mini-max(400px, 1fr));
+    grid-gap: 5px;
+}
+
+#grid>div{
+    font-size: 30px;
+    padding: 5px  5px 5;
+    color: white;
+    background: #da0e0e;
+    text-align: center;
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+  
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+}
+.grid-item img {
+  width: 100%;
+
+}
+.grid-item{
+  padding:10px;
+}
+@media screen and (min-width: 481px) and (max-width:767px) {
+  .container {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    grid-template-columns: auto auto auto auto;
+  }
+}
+.main-container{
+  display: grid;
+  grid-template-columns: auto;
+}
+@media screen and (min-width: 481px) {
+  .main-container {
+    grid-template-columns: 1fr 4fr;
+  }
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7R0FDRyxVQUFVO0dBQ1YsWUFBWTtHQUNaLG1CQUFtQjtHQUNuQixhQUFhO0dBQ2IsbUJBQW1CO0dBQ25CLHVCQUF1QjtHQUN2QixtQkFBbUI7R0FDbkIsa0JBQWtCO0VBQ25CO0VBQ0E7S0FDRyxVQUFVO0tBQ1YsWUFBWTtLQUNaLGtDQUFrQztLQUNsQyxtQkFBbUI7S0FDbkIsYUFBYTtLQUNiLHNCQUFzQjtLQUN0Qix1QkFBdUI7S0FDdkIsbUJBQW1CO0FBQ3hCO0NBQ0M7O0dBRUUsY0FBYztHQUNkLHVCQUF1QjtHQUN2QixlQUFlO0dBQ2YseUJBQXlCO0dBQ3pCLG9CQUFvQjtHQUNwQixVQUFVO0NBQ1o7Q0FDQTtHQUNFLGtCQUFrQjtHQUNsQixZQUFZO0dBQ1osU0FBUztHQUNULFlBQVk7R0FDWix1QkFBdUI7R0FDdkIsaUJBQWlCO0dBQ2pCLGdCQUFnQjtHQUNoQixXQUFXO0dBQ1gsZ0NBQWdDO0dBQ2hDLGFBQWE7O0VBRWQ7R0FDQztJQUNDLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIseUJBQXlCO0lBQ3pCLHlCQUF5QjtJQUN6QixXQUFXO0lBQ1gsWUFBWTtJQUNaLGFBQWE7SUFDYixlQUFlO0lBQ2YsZ0JBQWdCOztJQUVoQixlQUFlO0lBQ2YsVUFBVTs7R0FFWDs7QUFFSDtJQUNJLFVBQVU7SUFDVixhQUFhO0lBQ2IsNkJBQTZCO0lBQzdCLG1CQUFtQjs7O0FBR3ZCO0FBQ0E7O0VBRUU7Y0FDWTs7OztBQUlkO0FBQ0E7RUFDRTthQUNXO0FBQ2I7QUFDQTtJQUNJLGFBQWE7SUFDYiw2REFBNkQ7SUFDN0QsYUFBYTtBQUNqQjs7QUFFQTtJQUNJLGVBQWU7SUFDZixtQkFBbUI7SUFDbkIsWUFBWTtJQUNaLG1CQUFtQjtJQUNuQixrQkFBa0I7O0FBRXRCOztBQUVBO0VBQ0UsZ0JBQWdCO0VBQ2hCLHNCQUFzQjtBQUN4Qjs7QUFFQTtFQUNFLFdBQVc7RUFDWCxjQUFjO0VBQ2QsY0FBYztFQUNkLGtCQUFrQjtFQUNsQixrQkFBa0I7RUFDbEIscUJBQXFCO0VBQ3JCLGVBQWU7QUFDakI7O0FBRUE7RUFDRSxzQkFBc0I7RUFDdEIsWUFBWTtBQUNkOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLFlBQVk7QUFDZDs7QUFFQTtFQUNFLGFBQWE7QUFDZjs7QUFFQTtFQUNFLDZCQUE2QixhQUFhLENBQUM7RUFDM0M7SUFDRSxZQUFZO0lBQ1osY0FBYztFQUNoQjtBQUNGOztBQUVBO0VBQ0Usb0JBQW9CLGtCQUFrQixDQUFDO0VBQ3ZDO0lBQ0Usa0JBQWtCO0lBQ2xCLFFBQVE7SUFDUixNQUFNO0VBQ1I7RUFDQTtJQUNFLFdBQVc7SUFDWCxjQUFjO0lBQ2QsZ0JBQWdCO0VBQ2xCO0FBQ0Y7Ozs7O0FBS0E7RUFDRSxhQUFhO0VBQ2IsMkJBQTJCO0FBQzdCO0FBQ0E7RUFDRSxXQUFXOztBQUViO0FBQ0E7RUFDRSxZQUFZO0FBQ2Q7QUFDQTtFQUNFO0lBQ0UscUNBQXFDO0VBQ3ZDO0FBQ0Y7O0FBRUE7RUFDRTtJQUNFLDBDQUEwQztFQUM1QztBQUNGO0FBQ0E7RUFDRSxhQUFhO0VBQ2IsMkJBQTJCO0FBQzdCO0FBQ0E7RUFDRTtJQUNFLDhCQUE4QjtFQUNoQztBQUNGIiwic291cmNlc0NvbnRlbnQiOlsiLm1haW5fZGl2e1xuICAgd2lkdGg6IDEwJTtcbiAgIGhlaWdodDogMzB2aDtcbiAgIGJhY2tncm91bmQ6ICMxMTAxMDE7XG4gICBkaXNwbGF5OiBmbGV4O1xuICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgfVxuICAuY2VudGVyX2RpdntcbiAgICAgd2lkdGg6IDEwJTtcbiAgICAgaGVpZ2h0OiA5MHZoO1xuICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMCwgMTY2LCAyNTUpO1xuICAgICBib3JkZXItcmFkaXVzOiAxNXB4O1xuICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cbiBoMXtcblxuICAgY29sb3I6ICMxNzAxMDE7XG4gICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDtcbiAgIGZvbnQtc2l6ZTogM3JlbTtcbiAgIGJhY2tncm91bmQtY29sb3I6ICNjOGNlZWI7XG4gICBwYWRkaW5nOiA2cHggMCAycHggMDtcbiAgIHdpZHRoOiA0NSU7XG4gfVxuIGlucHV0e1xuICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgaGVpZ2h0OiAzMHB4O1xuICAgdG9wOiAxMHB4O1xuICAgYm9yZGVyOiBub25lO1xuICAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7XG4gICBmb250LXNpemU6IDIuNXJlbTtcbiAgIGZvbnQtd2VpZ2h0OiA1MDA7XG4gICB3aWR0aDogMTAwJTtcbiAgIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCAjZGEwZTBlO1xuICAgb3V0bGluZTogbm9uZTtcblxuICB9IFxuICAgYnV0dG9ue1xuICAgIG1pbi1oZWlnaHQ6IDQwcHg7XG4gICAgYm9yZGVyLXJhZGl1czogNSU7XG4gICAgYm9yZGVyLWNvbG9yOiB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZWRlYWY1O1xuICAgIGNvbG9yOiAjMDAwO1xuICAgIGJvcmRlcjogbm9uZTtcbiAgICBvdXRsaW5lOiBub25lO1xuICAgIHBhZGRpbmc6IDAgMTVweDtcbiAgICBtYXJnaW4tdG9wOiAxMHB4O1xuICAgIFxuICAgIGZvbnQtc2l6ZTogMjBweDtcbiAgICB3aWR0aDogNDAlO1xuICAgIFxuICAgfVxuXG4uYnRuX2RpdntcbiAgICB3aWR0aDogMzAlO1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1hcm91bmQ7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcblxuXG59XG5ib2R5IHtcbiAgXG4gIGZvbnQtZmFtaWx5OiAtXG4gICAgc2Fucy1zZXJpZjtcbiAgXG5cblxufVxuY29kZSB7XG4gIGZvbnQtZmFtaWx5OiBcbiAgICBtb25vc3BhY2U7XG59XG4jZ3JpZHtcbiAgICBkaXNwbGF5OiBncmlkO1xuICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogcmVwZWF0KGF1dG9maWxsLCBtaW5pLW1heCg0MDBweCwgMWZyKSk7XG4gICAgZ3JpZC1nYXA6IDVweDtcbn1cblxuI2dyaWQ+ZGl2e1xuICAgIGZvbnQtc2l6ZTogMzBweDtcbiAgICBwYWRkaW5nOiA1cHggIDVweCA1O1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBiYWNrZ3JvdW5kOiAjZGEwZTBlO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcblxufVxuXG4udG9wbmF2IHtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzMzMztcbn1cblxuLnRvcG5hdiBhIHtcbiAgZmxvYXQ6IGxlZnQ7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBjb2xvcjogI2YyZjJmMjtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBwYWRkaW5nOiAxNHB4IDE2cHg7XG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgZm9udC1zaXplOiAxN3B4O1xufVxuXG4udG9wbmF2IGE6aG92ZXIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZGRkO1xuICBjb2xvcjogYmxhY2s7XG59XG5cbi50b3BuYXYgYS5hY3RpdmUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDRBQTZEO1xuICBjb2xvcjogd2hpdGU7XG59XG5cbi50b3BuYXYgLmljb24ge1xuICBkaXNwbGF5OiBub25lO1xufVxuXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA2MDBweCkge1xuICAudG9wbmF2IGE6bm90KDpmaXJzdC1jaGlsZCkge2Rpc3BsYXk6IG5vbmU7fVxuICAudG9wbmF2IGEuaWNvbiB7XG4gICAgZmxvYXQ6IHJpZ2h0O1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICB9XG59XG5cbkBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDYwMHB4KSB7XG4gIC50b3BuYXYucmVzcG9uc2l2ZSB7cG9zaXRpb246IHJlbGF0aXZlO31cbiAgLnRvcG5hdi5yZXNwb25zaXZlIC5pY29uIHtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgcmlnaHQ6IDA7XG4gICAgdG9wOiAwO1xuICB9XG4gIC50b3BuYXYucmVzcG9uc2l2ZSBhIHtcbiAgICBmbG9hdDogbm9uZTtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICB0ZXh0LWFsaWduOiBsZWZ0O1xuICB9XG59XG4gIFxuXG5cblxuLmNvbnRhaW5lciB7XG4gIGRpc3BsYXk6IGdyaWQ7XG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogYXV0bztcbn1cbi5ncmlkLWl0ZW0gaW1nIHtcbiAgd2lkdGg6IDEwMCU7XG5cbn1cbi5ncmlkLWl0ZW17XG4gIHBhZGRpbmc6MTBweDtcbn1cbkBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDQ4MXB4KSBhbmQgKG1heC13aWR0aDo3NjdweCkge1xuICAuY29udGFpbmVyIHtcbiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IGF1dG8gYXV0byBhdXRvO1xuICB9XG59XG5cbkBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDc2OHB4KSB7XG4gIC5jb250YWluZXIge1xuICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogYXV0byBhdXRvIGF1dG8gYXV0bztcbiAgfVxufVxuLm1haW4tY29udGFpbmVye1xuICBkaXNwbGF5OiBncmlkO1xuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IGF1dG87XG59XG5AbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA0ODFweCkge1xuICAubWFpbi1jb250YWluZXIge1xuICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyIDRmcjtcbiAgfVxufSJdLCJzb3VyY2VSb290IjoiIn0= */</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="topnav" id="myTopnav"><a class="active" href="http://localhost:3000/#/">Home</a><a href="http://localhost:3000/#/nowplaying">Nowplaying</a><a href="http://localhost:3000/#/bookmovie">Bookmovie</a><a href="http://localhost:3000/#/comingsoon">Comingsoon</a><a href="http://localhost:3000/#/cafealt">Cafe</a><a href="http://localhost:3000/#/aboutalt">About</a><a href="http://localhost:3000/#/sign-up">Sign-up</a><a href="javascript:void(0);" class="icon"><i class="fa fa-bars"></i></a></div><div class="main-container"><div class="aside"><div class=""><h1>Welcome to Tongariro Cinemas!</h1><h3>Upcoming Events</h3><h3>World Film Festival</h3><p>June 1-June23, 2023</p><h3>Special screenings</h3><p>June 25th , King's birthday special screening of Movie "Elizabeth:The Golden Age"</p><p>June 30th, Superman-The movie (1978). 45th anniversary screening</p><h3>Now find us on</h3><p>Facebook.com</p><p>Twitter.com</p><p>Instagram.com</p></div></div><div class="main"><div class="container"><div class="grid-item"><img src="./React App_files/Gone.jpg"><h3>Release year ,2023</h3><h3>Genre:Action,Crime,Thriller </h3><h3>Rating-M</h3><h3>Duration-169 minutes</h3></div><div class="grid-item"><img src="./React App_files/Wonderwoman.jpg"><h3>Release year ,2023</h3><h3>Genre:horror </h3><h3>Rating-PG</h3><h3>Duration-96 minutes</h3></div><div class="grid-item"><img src="./React App_files/ComingMarlowe.jpg"><h3>Release year ,2023</h3><h3>Genre:Thriller </h3><h3>Rating-M</h3><h3>Duration-91 minutes</h3></div><div class="grid-item"><img src="./React App_files/Vermeer.jpg"><h3>Release date 27th April ,2023</h3><h3>Genre:Drama ,Sport</h3><h3>Rating-M</h3></div></div></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  
+
+</body></html>
